@@ -1,35 +1,44 @@
 body {
 /* Change my background, and set global font family. */
+    background-color: white; 
 }
 
 .content-wrapper {
   /* Center on page, set width */
-    margin: center;
-    width: auto;
 }
 
 
 header h1 {
   /* Make bigger and color, Change our font family to a sans serif and center */
-  font-size: 3em;
-  font-family: sans-serif;
+    font-size: 3.5em;
+    font-family: sans-serif;
+    background-color: white;
+    text-align: center;
+    color: rebeccapurple;
+    margin: 1em 0em 0em 0em;
 }
 
 .main-nav li {
  /* Change background color, remove bullets, border on each individual nav element. create and float links, center our content within the links. width, font color, change font family */
     float: left;
     list-style-type: none;
-    background-color: mediumpurple;
+    background-color: purple;
     border-right: 1px solid white;
     padding: 1em;
     font-family: sans-serif;
     width: 8.8em;
+    color: white;
+    text-align: center;
+  
+}
+
+a {
+    color: white;
 }
 
 aside {
   /* clear float, background color, float, font color */
-  float: left;
-
+    float: left;
 }
 
 
@@ -44,23 +53,34 @@ aside li {
     width: 8em;
     height: 3em;
     float: left;
+    text-align: center;
+    
 }
 
 article {
   /* background-color, float to the right?, font size  */
-  background-color: lightgray;
+    background-color: lightgray;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+article figcaption {
+    font-size: .75em;
+    text-align: center;
+    padding: 44px;
 }
 
 figure img {
 /* Center, size of the font */ 
-       margin: auto;
+    margin: auto;
 }
 
 footer {
    /* float the images, create links, center links */
-    float: left;
     margin: auto;
-    
+    width: 20%;
+    background-color: white;
+    padding: 0em 33em 0em;
 }
 
 

@@ -1,0 +1,71 @@
+body {
+/* Change my background, and set global font family. */
+}
+
+.content-wrapper {
+  /* Center on page, set width */
+    margin: center;
+    width: auto;
+}
+
+
+header h1 {
+  /* Make bigger and color, Change our font family to a sans serif and center */
+  font-size: 3em;
+  font-family: sans-serif;
+}
+
+.main-nav li {
+ /* Change background color, remove bullets, border on each individual nav element. create and float links, center our content within the links. width, font color, change font family */
+    float: left;
+    list-style-type: none;
+    background-color: mediumpurple;
+    border-right: 1px solid white;
+    padding: 1em;
+    font-family: sans-serif;
+    width: 8.8em;
+}
+
+aside {
+  /* clear float, background color, float, font color */
+  float: left;
+
+}
+
+
+
+aside li {
+  /* clear both, links? */
+    clear: both;
+    list-style-type: none;
+    background-color: plum;
+    padding: .5em;
+    font-family: sans-serif;
+    width: 8em;
+    height: 3em;
+    float: left;
+}
+
+article {
+  /* background-color, float to the right?, font size  */
+  background-color: lightgray;
+}
+
+figure img {
+/* Center, size of the font */ 
+       margin: auto;
+}
+
+footer {
+   /* float the images, create links, center links */
+    float: left;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
